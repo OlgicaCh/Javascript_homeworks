@@ -2,7 +2,7 @@ console.log("working");
 
 //function-type- Number
 
-function number() {
+/*function number() {
   let result = 7 + 5;
   console.log(result);
   console.log(typeof result);
@@ -39,4 +39,13 @@ function calculateAverage() {
   console.log(average);
   console.log(typeof average);
 }
-calculateAverage();
+calculateAverage();*/
+function dataType(input) {
+  let data = input;
+  console.log(typeof data);
+}
+dataType(5);
+dataType(5 > 10);
+dataType("Olgica");
+dataType();
+dataType(null);
